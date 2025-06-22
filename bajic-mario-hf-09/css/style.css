@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  background-color: #ffffd4;
+  color: #555;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.doboz {
+  width: 70%;
+  border: 2px solid brown;
+  box-sizing: border-box;
+  background-color: white;
+  margin: 30px auto;
+}
+
+.fejlec img {
+  width: 100%;
+  height: auto;
+  max-height: 350px;
+  object-fit: cover;
+  display: block;
+}
+
+.menu {
+  background-color: #FF7F2A;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 15px 0;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.menu a:hover {
+  background-color: #BF153F;
+  transform: scale(1.05);
+}
+
+.tartalom {
+  padding: 30px;
+}
+
+.szakasz {
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.szakasz img {
+  float: left;
+  max-width: 30%;
+  height: auto;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.szakasz h2 {
+  color: brown;
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.szakasz p {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.lablec {
+  border-top: 2px solid brown;
+}
+
+.lablec iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
+  display: block;
+}
