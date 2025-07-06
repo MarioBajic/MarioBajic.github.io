@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Strandolás Magyarország tavain - Magyarország látványosságai</title>
+    <meta name="description"
+        content="Magyarország legismertebb tavai, legfőbb turisztikai látványosságai. Nézz szét az oldalon, hogy megismerd őket még a nyári szezon előtt!">
+    <meta property="og:title" content="Magyaroszág - Turisztika - Magyarországtavai.hu" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.Magyarországtavai.hu/Balaton" />
+    <meta property="og:image" content="https://www.Magyarországtavai.hu/img/Balaton-01.jpg" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="images/fejlec.jpg" alt="Strand kép" />
+        </header>
+
+        <aside>
+            <nav>
+                <h2>
+                    <a href="#balaton">Balaton</a>
+                    <a href="#tiszato">Tisza-tó</a>
+                    <a href="#szelidito">Szelidi-tó</a>
+                </h2>
+            </nav>
+
+            <br>
+            <h3>Kérem töltse ki a jelentkezési űrlapot!</h3>
+            <form>
+                <div class="form-group">
+                    <label for="nev">Név*</label>
+                    <input type="text" id="nev" name="nev" required maxlength="50" placeholder="Példa Béla">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail cím*</label>
+                    <input type="email" id="email" name="email" required maxlength="50" placeholder="pelda@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="telefon">Telefonszám*</label>
+                    <input type="tel" id="telefon" name="telefon" required maxlength="20" placeholder="+36201234567">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="to">Melyik tó érdekli?</label>
+                    <select id="to" name="to">
+                        <option>Balaton</option>
+                        <option>Tisza-tó</option>
+                        <option>Szelidi-tó</option>
+                    </select>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label>Milyen szállást keres?</label>
+                    <div>
+                        <input type="checkbox" id="szalloda" name="szallas" value="szalloda">
+                        <label for="szalloda">Szálloda</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="apartmanhaz" name="szallas" value="apartmanhaz">
+                        <label for="apartmanhaz">Apartmanház</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="kemping" name="szallas" value="kemping">
+                        <label for="kemping">Kemping</label>
+                    </div>
+                </div>
+
+                <br>
+                <div class="form-group">
+                    <label>Milyen ellátást kér?</label>
+                    <div>
+                        <input type="radio" id="teljes" name="ellatas" value="teljes">
+                        <label for="teljes">Teljes ellátás</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="fel" name="ellatas" value="fel">
+                        <label for="fel">Félpanzió</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="reggeli" name="ellatas" value="reggeli">
+                        <label for="reggeli">Csak reggeli</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="semmi" name="ellatas" value="semmi">
+                        <label for="semmi">Nem kérek ellátást</label>
+                    </div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="uzenet">Egyéb üzenet</label>
+                    <textarea id="uzenet" name="uzenet" rows="6"
+                        placeholder="Ide irhatja az egyéb üzenetét!"></textarea>
+                </div>
+                <br>
+                <button type="submit">Mehet</button>
+            </form>
+        </aside>
+
+        <main>
+            <section id="balaton">
+
+                <h2>Balaton</h2>
+                <p>
+                <p>A Balaton Közép-Európa legnagyobb édesvizű tava, amely Magyarország nyugati részén található.</p>
+                Hossza mintegy 77 km, legnagyobb szélessége 14 km, észak-déli irányban. Sekély vize gyorsan
+                melegszik, ezért nyáron különösen kedvelt fürdőhely.<img src="images/balaton_2_55.jpg" alt="Balaton" />
+                A tó északi partja dombos, itt található a
+                híres Badacsony és a borvidékek. A déli part laposabb, családbarát strandjai miatt népszerű. A
+                Balaton nemcsak fürdőzésre, hanem vitorlázásra, horgászásra és kerékpározásra is ideális. Télen,
+                amikor befagy, sokan korcsolyázni járnak ide. Számos kulturális rendezvény és fesztivál is
+                megrendezésre kerül a tó körül, például a Balaton Sound vagy a Művészetek Völgye. A Balaton környéke
+                fejlett turisztikai infrastruktúrával rendelkezik. A tó vize enyhén lúgos, és híres gyógyhatású
+                iszapot is találni a part mentén.A tó különlegessége, hogy egyes részei természetvédelmi oltalom
+                alatt állnak, így azokat csak meghatározott szabályok szerint lehet látogatni. A vízfelületet
+                szigetek, csatornák és holtágak tagolják, ami kalandos felfedezéseket tesz lehetővé. A tó élővilága
+                gazdag, különösen a nádasokban és a kisebb öblökben figyelhetők meg madarak és halak. A balatoni
+                kompjáratok révén gyorsan átkelhetünk egyik partról a másikra.
+                </p>
+            </section>
+
+            <section id="tiszato">
+
+                <h2>Tisza-tó</h2>
+                <p>
+                <p>A Tisza-tó Magyarország második legnagyobb tava, mesterséges víztározóként jött létre a Tisza
+                    szabályozása során.</p> A tó területe kb. 127 km², és változatos vízrajzi képe miatt különleges
+                ökoszisztémával rendelkezik. A Tisza-tó különösen
+                népszerű a természetkedvelők körében, mert számos
+                madárfaj és vízi élőlény otthona.<img src="images/tisza-tó-2.jpg" alt="Tisza-tó" /> A tó partján
+                tanösvények, madárlesek és csónakos túralehetőségek
+                várják a látogatókat. Különösen kedvelt célpont a horgászok, kenusok és vízitúrázók körében. A
+                Poroszlón található Ökocentrum bemutatja a tó gazdag élővilágát. Fürdőzésre is alkalmas, és több
+                szabadstrand is működik a partján. A tó körül kiépített kerékpárút húzódik, ami remek lehetőséget
+                nyújt biciklitúrákra. A Tisza-tó vize tiszta, lassan mélyülő, így családoknak is ideális. A
+                természetvédelmi területek miatt fokozottan ügyelnek a környezet megóvására. A tó különlegessége,
+                hogy egyes részei természetvédelmi oltalom alatt állnak, így azokat csak meghatározott szabályok
+                szerint lehet látogatni. A vízfelületet szigetek, csatornák és holtágak tagolják, ami kalandos
+                felfedezéseket tesz lehetővé. A vadregényes vízi világ csónakból vagy kajakból fedezhető fel a
+                legjobban. Tavasszal és ősszel madárvonulás figyelhető meg, amit a természetfotósok különösen
+                értékelnek. A térségben komoly ökoturisztikai fejlesztések zajlottak az elmúlt években. A Tisza-tó a
+                fenntartható turizmus példája Magyarországon.</p>
+            </section>
+
+            <section id="szelidito">
+
+                <h2>Szelidi-tó</h2>
+                <p>
+                <p>A Szelidi-tó egy természetes eredetű tó Bács-Kiskun vármegyében, Kalocsa közelében.</p> Kb. 5 km
+                hosszú és 150–200 méter széles, mélysége eléri a 4–5 métert. Vizét gyógyhatásúnak tartják, magas
+                ásványianyag-tartalma miatt. <img src="images/szelidi-to_2_10.jpg" alt="Szelidi-tó" />A tó
+                környéke nyaranta közkedvelt üdülőhely, főként a helyiek és akörnyékbeliek körében. Strandjai jól
+                felszereltek, és több szálláslehetőség is elérhető. A tó
+                vízminősége jó, és a nyári időszakban kellemesen felmelegszik. A Szelidi-tó környezete csendes,
+                nyugodt, ideális kikapcsolódásra és pihenésre. Horgászni is lehet benne, főleg ponty és keszeg
+                fogható. A környékén tanösvények és sétányok is találhatók. A helyi rendezvények, például a
+                Szelidi-tavi Nyár, vonzzák a látogatókat. A tóhoz kapcsolódó üdülőtelep csendes, barátságos
+                hangulatú, családias környezetet kínál. A tó partján több kemping és vendégház is működik, így
+                különböző igényeket kielégítő szállások elérhetők. A tó körül sétány és futópálya is található,
+                amelyeket sokan sportolásra használnak. A hely különösen népszerű a horgászversenyek kedvelői
+                körében. A tó egyik különlegessége, hogy időnként gyógyiszap is képződik az alján, amit a helyiek
+                régóta használnak. A Szelidi-tó élővilága is gazdag, főként halak és vízi madarak találhatók meg
+                benne.
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            <p>2025 Strandolás Mindenkinek!</p>
+        </footer>
+    </div>
+</body>
+
+</html>
