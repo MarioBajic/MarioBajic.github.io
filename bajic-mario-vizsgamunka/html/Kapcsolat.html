@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/png" href="../img/favicon-32x32.png">
+    <!--Google Fonts Logo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    <!--Google Fonts Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira+Stencil+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Kapcsolat | Pentasi Wake</title>
+</head>
+
+<body>
+    <nav class="inline-nav">
+        <div class="nav-top-row">
+            <a href="../index.html" class="logo-text">PENTASI WAKE</a>
+
+            <div class="hamburger-nav" onclick="toggleMenu(this)">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <ul class="list-menu-inline">
+            <li><a href="../index.html">FŐOLDAL</a></li>
+            <li><a href="../html/Jegyek.html">JEGYEK</a></li>
+            <li><a href="../html/Tábor.html">TÁBOR</a></li>
+            <li><a href="../html/Galéria.html">GALÉRIA</a></li>
+            <li><a href="../html/Kapcsolat.html" class="active">KAPCSOLAT</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="connection-hero-section">
+            <div class="connection-hero">
+                <div class="connection-hero-img">
+                    <img src="../img/kapcsolat/img-18-1.jpg" alt="Dron-kep">
+                </div>
+                <div class="connection-hero-text">
+                    <h1>Megközelités</h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="connections-section">
+            <div class="connection-container">
+                <div class="connection-header">
+                    <div class="connection-icon">
+                        <img src="../img/kapcsolat/bus-symbol-icon.svg" alt="Tömegközlekedés ikon">
+                    </div>
+                    <h2>Tömegközlekedéssel</h2>
+                </div>
+                <p>A központból közlekedő 405-ös vagy 450-es számú busszal Planetáriumig vagy az SZTK állomástól 8 perc
+                    sétára található.</p>
+            </div>
+            <div class="connection-container">
+                <div class="connection-header">
+                    <div class="connection-icon">
+                        <img src="../img/kapcsolat/car-icon.svg" alt="Autó ikon">
+                    </div>
+                    <h2>Autóval</h2>
+                </div>
+                <div class="connection-car-icon">
+                    <a href="https://maps.app.goo.gl/PhRrhB1FLbxZ2AH29" target="_blank"><img
+                            src="../img/kapcsolat/google-maps.svg" alt="Google térkép ikon"></a>
+                    <a
+                        href="https://ul.waze.com/ul?ll=46.90767906%2C19.66767311&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"><img
+                            src="../img/kapcsolat/Waze App Icon Vector.svg" alt="Waze ikon"></a>
+                </div>
+                <p>Ingyenes parkolási lehetőség közvetlenül a wakeboard pálya bejáratánál.</p>
+            </div>
+            <div class="connection-container">
+                <div class="connection-header">
+                    <div class="connection-icon">
+                        <img src="../img/kapcsolat/icons8-bicycle-50.svg" alt="Bicikli ikon">
+                    </div>
+                    <h2>Kerékpárral</h2>
+                </div>
+                <div class="connection-bike-icon">
+                    <a
+                        href="https://www.komoot.com/plan/@46.9070560,19.6679802,15.000z?p[0]&p[1][loc]=46.907671,19.667583"><img
+                            src="../img/kapcsolat/Komoot.svg" alt="Komoot ikon"></a>
+                </div>
+            </div>
+        </section>
+
+        <div class="contact-form">
+            <h2>Kapcsolatfelvétel</h2>
+            <form action="#" method="post">
+                <div class="contact-form-row">
+                    <input type="text" name="nev" autocomplete="name" placeholder="Név*" required>
+                    <input type="email" name="email" placeholder="E-mail-cím *" autocomplete="email" required>
+                </div>
+                <input type="tel" name="telefon" autocomplete="tel" placeholder="Telefonszám">
+                <textarea name="megjegyzes" placeholder="Hozzászólás"></textarea>
+                <button type="submit">Küldés</button>
+                <div id="successMessage" class="success-message">Köszönjük! A regisztrációd sikeresen elküldve.
+            </form>
+        </div>
+
+        <div class="connection-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.897127027286!2d19.665420476663297!3d46.90731187113425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4743d0a05ef5462b%3A0xffcfe23361ce0070!2sHill%20Beach%20%2F%20RideCable!5e1!3m2!1sen!2shu!4v1752594060626!5m2!1sen!2shu"
+                width="800px" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+
+    <footer class="footer-top">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Fizetési lehetőségek</h4>
+                <div class="payment-logos">
+                    <img src="../img/mastercard-full-svgrepo-com.svg" alt="MasterCard">
+                    <img src="../img/cash-payment-svgrepo-com.svg" alt="Cash">
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Kövess minket</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/pentasicablepark" target="_blank">
+                        <img src="../img/facebook-svgrepo-com.svg" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/pentasicablepark/" target="_blank">
+                        <img src="../img/instagram-svgrepo-com.svg" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="footer-bottom">
+        <p>📍 <a href="https://maps.app.goo.gl/PhRrhB1FLbxZ2AH29" target="_blank">Kecskemét, Csabay Géza krt. 7. ,
+                6000</a>
+            &nbsp;&nbsp;📞 <a href="tel:+36309031933">Mobil: +36 30 903 1933</a>
+            &nbsp;&nbsp;✉️ E-mail: <a href="mailto:ceo@pentasi.eu">ceo@pentasi.eu</a>
+        </p>
+    </footer>
+    <button id="scrollToTopBtn">⬆</button>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

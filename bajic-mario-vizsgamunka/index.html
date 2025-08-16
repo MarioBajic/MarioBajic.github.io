@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png">
+    <!--Google Fonts Logo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    <!--Google Fonts Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira+Stencil+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Pentasi Wake | Főoldal</title>
+</head>
+
+<body>
+    <nav class="inline-nav">
+        <div class="nav-top-row">
+            <a href="index.html" class="logo-text">PENTASI WAKE</a>
+
+            <div class="hamburger-nav" onclick="toggleMenu(this)">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <ul class="list-menu-inline">
+            <li><a href="index.html" class="active">FŐOLDAL</a></li>
+            <li><a href="html/Jegyek.html">JEGYEK</a></li>
+            <li><a href="html/Tábor.html">TÁBOR</a></li>
+            <li><a href="html/Galéria.html">GALÉRIA</a></li>
+            <li><a href="html/Kapcsolat.html">KAPCSOLAT</a></li>
+        </ul>
+    </nav>
+
+    <div class="home-grid-container">
+        <header>
+            <section class="home-hero-section">
+                <img src="img/fooldal/IMG_6857-2.jpg" alt="">
+                <div class="home-hero-box">
+                    <p>Június 20.-tól minden nap nyitva vagyunk.</p>
+                    <a href="html/Jegyek.html" class="home-ticket-button">Jegyvásárláshoz kattints ide!</a>
+                </div>
+            </section>
+        </header>
+
+        <main>
+            <section class="introduction-info-section">
+                <h2>Vizisí és wakeboard pálya Kecskemét szívében!</h2>
+                <p>A kecskeméti vizisípálya 5 oszlopos, <strong>788 m hosszú</strong>, egyszerre 9 wakeboardos
+                    vontatására képes.</p>
+                <p>Sebessége 0-58 km/h között tizedes pontossággal változtatható, általában 30 km/h.</p>
+                <p>Tanulóórákban <strong>(minden nap, reggel 10-12 óra között)</strong> szakképzett oktatók
+                    nyújtanak segítséget a
+                    biztos alapok elsajátításában, az elszántabb érdeklődők akár a leglátványosabb trükköket is
+                    megtanulhatják. Minden kezdőnek <strong>ingyen</strong> biztosítjuk a teljes felszerelést!</p>
+            </section>
+
+            <section class="registration-section">
+
+                <strong>
+                    <h2>Szezonos regisztráció</h2>
+                </strong>
+
+                <form id="regForm" action="#" method="post">
+                    <div class="form-row">
+                        <input type="text" name="nev" placeholder="Név*" autocomplete="name" required>
+                        <input type="email" name="email" autocomplete="email" placeholder="E-mail-cím *" required>
+                    </div>
+                    <input type="tel" name="telefon" autocomplete="tel" placeholder="Telefonszám">
+                    <textarea name="megjegyzes" placeholder="Hozzászólás"></textarea>
+                    <button type="submit">Küldés</button>
+                    <div id="successMessage" class="success-message">Köszönjük! A regisztrációd sikeresen elküldve.
+                    </div>
+                </form>
+            </section>
+
+            <section class="home-ticket-section">
+                <img src="img/fooldal/IMG_7060-3.jpg" alt="">
+                <div class="ticket-box">
+                    <!-- <h2>JEGYEK</h2> -->
+                    <p>Kattints ide, hogy megtekintsd a jegyeket!</p>
+                    <a href="html/Jegyek.html" class="sport-ticket-button">Sportolói jegyek</a>
+                </div>
+            </section>
+
+            <section class="info-section">
+                <div class="info-box">
+                    <h3>Árak</h3>
+                    <p>Órás, kétórás, napi, heti, havijegyek és szezonbérletek választhatóak</p>
+                    <a href="html/Jegyek.html">Részletek megtekintéséhez kattints ide!</a>
+                    <p></p>
+                    <a href="html/Jegyek.html">JEGYEK <span>→</span></a>
+                </div>
+                <div class="info-box">
+                    <h3>Nyitvatartás</h3>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Május 1-31</td>
+                                <td>13:00-19:00</td>
+                            </tr>
+                            <tr>
+                                <td>Június 1-20</td>
+                                <td>13:00-20:00</td>
+                            </tr>
+                            <tr>
+                                <td>Június 20-Aug. 31</td>
+                                <td>9:00-20:00</td>
+                            </tr>
+                            <tr>
+                                <td>Szeptember 1-30</td>
+                                <td>13:00-19:00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>Esetleges módositásokat a Facebook oldalunkon mindig megtaláljátok.</p>
+                </div>
+                <div class="info-box">
+                    <h3>Kapcsolat</h3>
+                    <a href="https://maps.app.goo.gl/PhRrhB1FLbxZ2AH29" target="_blank">6000, Kecskemét, Csabay
+                        Géza körút 7</a>
+                    <a href="https://www.facebook.com/pentasicablepark" target="_blank">Facebook
+                        oldalunk</a>
+                    <a href="tel:+36309031933">+36 30 903 1933</a>
+                    <a href="mailto:ceo@pentasi.eu">ceo@pentasi.eu</a>
+                    <a href="html/Kapcsolat.html">Online kapcsolatfelvétel <span>→</span></a>
+                </div>
+            </section>
+
+            <section class="newsletter-section">
+                <h2>IRATKOZZ FEL!</h2>
+                <p>Ne maradj le az exkluzív ajánlatokról, fantasztikus programjainkról! Iratkozz fel a hírlevelünkre!
+                </p>
+                <form id="newsletterForm" class="newsletter-form">
+                    <input type="email" name="email" autocomplete="email" placeholder="E-mail-cím" required>
+                    <button type="submit">→</button>
+                    <div id="newsletterSuccess" class="success-message">Köszönjük! Sikeresen feliratkoztál a hírlevélre.</div>
+                    
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer-top">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Fizetési lehetőségek</h4>
+                <div class="payment-logos">
+                    <img src="../img/mastercard-full-svgrepo-com.svg" alt="MasterCard">
+                    <img src="../img/cash-payment-svgrepo-com.svg" alt="Cash">
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Kövess minket</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/pentasicablepark" target="_blank">
+                        <img src="../img/facebook-svgrepo-com.svg" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/pentasicablepark/" target="_blank">
+                        <img src="../img/instagram-svgrepo-com.svg" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="footer-bottom">
+        <p>📍 <a href="https://maps.app.goo.gl/PhRrhB1FLbxZ2AH29" target="_blank">Kecskemét, Csabay Géza krt. 7. ,
+                6000</a>
+            &nbsp;&nbsp;📞 <a href="tel:+36309031933">Mobil: +36 30 903 1933</a>
+            &nbsp;&nbsp;✉️ E-mail: <a href="mailto:ceo@pentasi.eu">ceo@pentasi.eu</a>
+        </p>
+    </footer>
+
+    <button id="scrollToTopBtn">⬆</button>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

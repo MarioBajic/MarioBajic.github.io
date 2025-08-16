@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jegyek | Pentasi Wake</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="icon" type="image/png" href="../img/favicon-32x32.png">
+  <!--Google Fonts Logo-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+  <!--Google Fonts Roboto-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav class="inline-nav">
+    <div class="nav-top-row">
+      <a href="../index.html" class="logo-text">PENTASI WAKE</a>
+
+      <div class="hamburger-nav" onclick="toggleMenu(this)">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <ul class="list-menu-inline">
+      <li><a href="../index.html">FŐOLDAL</a></li>
+      <li><a href="../html/Jegyek.html" class="active">JEGYEK</a></li>
+      <li><a href="../html/Tábor.html">TÁBOR</a></li>
+      <li><a href="../html/Galéria.html">GALÉRIA</a></li>
+      <li><a href="../html/Kapcsolat.html">KAPCSOLAT</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="parent">
+      <div class="div1">
+        <h1>Wakeboard jegy árak</h1>
+        <h2>A megvásárolt wakeboard jegy tartalmazza a teljes alapfelszerelést: kezdő wakeboard, mellény, bukósisak.
+        </h2>
+        <p>Csak fürdőruhára van szükség!</p>
+      </div>
+
+      <!--Felnőtt árak-->
+      <div class="div2">
+        <table class="tg">
+          <thead>
+            <tr>
+              <th class="tg-pb0m" colspan="5">Felnőtt</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tg-za14">1 órás</td>
+              <td class="tg-za14">2 órás</td>
+              <td class="tg-za14">Napi</td>
+              <td class="tg-za14">7 Napos</td>
+              <td class="tg-za14">14 Napos</td>
+            </tr>
+            <tr>
+              <td class="tg-za14">8500Ft</td>
+              <td class="tg-za14">12.000Ft</td>
+              <td class="tg-za14">16.000Ft</td>
+              <td class="tg-za14">85.000Ft</td>
+              <td class="tg-za14">130.000Ft</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!--Mobil lista Felnőtt-->
+        <div class="price-list">
+          <div class="name-row">Felnőtt Jegy</div>
+          <div class="price-row">
+            <span class="label">1 órás</span>
+            <span class="value">8500Ft</span>
+          </div>
+          <div class="price-row">
+            <span class="label">2 órás</span>
+            <span class="value">12.000Ft</span>
+          </div>
+          <div class="price-row">
+            <span class="label">Napi</span>
+            <span class="value">16.000Ft</span>
+          </div>
+          <div class="price-row">
+            <span class="label">7 Napos</span>
+            <span class="value">85.000Ft</span>
+          </div>
+          <div class="price-row">
+            <span class="label">14 Napos</span>
+            <span class="value">130.000Ft</span>
+          </div>
+        </div>
+      </div>
+
+      <!--Diák árak-->
+      <div class="div3">
+        <table class="tg">
+          <thead>
+            <tr>
+              <th class="tg-pb0m" colspan="5">Diák</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tg-za14">1 órás</td>
+              <td class="tg-za14">2 órás</td>
+              <td class="tg-za14">Napi</td>
+              <td class="tg-za14">7 Napos</td>
+              <td class="tg-za14">14 Napos</td>
+            </tr>
+            <tr>
+              <td class="tg-za14">7500Ft</td>
+              <td class="tg-za14">11.000Ft</td>
+              <td class="tg-za14">14.000Ft</td>
+              <td class="tg-za14">75.000Ft</td>
+              <td class="tg-za14">120.000Ft</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!--Mobil lista Diák-->
+        <div class="price-list">
+          <div class="name-row">Diák Jegy</div>
+          <div class="price-row">
+            <span class="label">1 órás</span>
+            <span class="value">7500Ft</span>
+          </div>
+          <div class="price-row">
+            <span class="label">2 órás</span>
+            <span class="value">11.000Ft</span>
+          </div>
+          <div class="price-row">
+            <span class="label">Napi</span>
+            <span class="value">14.000Ft</span>
+          </div>
+          <div class="price-row">
+            <span class="label">7 Napos</span>
+            <span class="value">75.000Ft</span>
+          </div>
+          <div class="price-row">
+            <span class="label">14 Napos</span>
+            <span class="value">120.000Ft</span>
+          </div>
+        </div>
+      </div>
+
+      <!--Wakeboard deszka-->
+      <div class="div4">
+        <table class="tg">
+          <thead>
+            <tr>
+              <th class="tg-pb0m" colspan="3">Wakeboard deszka, zárt kötéssel</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tg-za14">1 óra</td>
+              <td class="tg-za14">2 óra</td>
+              <td class="tg-za14">Napi</td>
+            </tr>
+            <tr>
+              <td class="tg-za14">3500Ft</td>
+              <td class="tg-za14">5500Ft</td>
+              <td class="tg-za14">8500Ft</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!--Mobil lista Wakeboard deszka-->
+        <div class="price-list">
+          <div class="name-row">Wakeboard deszka</div>
+          <div class="price-row">
+            <span class="label">1 óra</span>
+            <span class="value">3500Ft</span>
+          </div>
+          <div class="price-row">
+            <span class="label">2 óra</span>
+            <span class="value">5500Ft</span>
+          </div>
+          <div class="price-row">
+            <span class="label">Napi</span>
+            <span class="value">8500Ft</span>
+          </div>
+        </div>
+      </div>
+
+      <!--Neoprén ruha bérlés-->
+      <div class="div5">
+        <table class="tg">
+          <thead>
+            <tr>
+              <th class="tg-pb0m" colspan="3">Neoprén ruha bérlés</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tg-za14">1 óra</td>
+              <td class="tg-za14">2 óra</td>
+              <td class="tg-7zrl">Napi</td>
+            </tr>
+            <tr>
+              <td class="tg-za14">1500Ft</td>
+              <td class="tg-za14">2500 Ft</td>
+              <td class="tg-7zrl">4500Ft</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!--Mobil lista Neoprén ruha-->
+        <div class="price-list">
+          <div class="name-row">Neoprén ruha</div>
+          <div class="price-row">
+            <span class="label">1 óra</span>
+            <span class="value">1500Ft</span>
+          </div>
+          <div class="price-row">
+            <span class="label">2 óra</span>
+            <span class="value">2500 Ft</span>
+          </div>
+          <div class="price-row">
+            <span class="label">Napi</span>
+            <span class="value">4500Ft</span>
+          </div>
+        </div>
+      </div>
+
+      <!--Szezon bérlet-->
+      <div class="div7">
+        <table class="tg">
+          <thead>
+            <tr>
+              <th class="tg-pb0m" colspan="2">Szezon&nbsp;&nbsp;&nbsp;bérlet</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tg-pb0m">Felnőtt</td>
+              <td class="tg-pb0m">Diák</td>
+            </tr>
+            <tr>
+              <td class="tg-pb0m">260.000Ft</td>
+              <td class="tg-pb0m">190.000Ft</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!--Mobil lista Szezon bérlet-->
+        <div class="price-list">
+          <div class="name-row">Szezon bérlet</div>
+          <div class="price-row">
+            <span class="label">Felnőtt</span>
+            <span class="value">260.000Ft</span>
+          </div>
+          <div class="price-row">
+            <span class="label">Diák</span>
+            <span class="value">190.000Ft</span>
+          </div>
+        </div>
+      </div>
+
+      <!--Félszezon bérlet-->
+      <div class="div8">
+        <table class="tg">
+          <thead>
+            <tr>
+              <th class="tg-pb0m" colspan="2">Félszezon&nbsp;&nbsp;&nbsp;bérlet</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tg-pb0m">Felnőtt</td>
+              <td class="tg-pb0m">Diák</td>
+            </tr>
+            <tr>
+              <td class="tg-pb0m">140.000Ft</td>
+              <td class="tg-pb0m">110.000Ft</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!--Mobil lista Félszezon bérlet-->
+        <div class="price-list">
+          <div class="name-row">Félszezon bérlet</div>
+          <div class="price-row">
+            <span class="label">Felnőtt</span>
+            <span class="value">140.000Ft</span>
+          </div>
+          <div class="price-row">
+            <span class="label">Diák</span>
+            <span class="value">110.000Ft</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer-top">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>Fizetési lehetőségek</h4>
+        <div class="payment-logos">
+          <img src="../img/mastercard-full-svgrepo-com.svg" alt="MasterCard">
+          <img src="../img/cash-payment-svgrepo-com.svg" alt="Cash">
+        </div>
+      </div>
+      <div class="footer-section">
+        <h4>Kövess minket</h4>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/pentasicablepark" target="_blank">
+            <img src="../img/facebook-svgrepo-com.svg" alt="Facebook">
+          </a>
+          <a href="https://www.instagram.com/pentasicablepark/" target="_blank">
+            <img src="../img/instagram-svgrepo-com.svg" alt="Instagram">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="footer-bottom">
+    <p>📍 <a href="https://maps.app.goo.gl/PhRrhB1FLbxZ2AH29" target="_blank">Kecskemét, Csabay Géza krt. 7. ,
+        6000</a>
+      📞 <a href="tel:+36309031933">Mobil: +36 30 903 1933</a>
+      ✉️ E-mail: <a href="mailto:ceo@pentasi.eu">ceo@pentasi.eu</a>
+    </p>
+  </footer>
+  <button id="scrollToTopBtn">⬆</button>
+  <script src="../js/main.js"></script>
+</body>
+</html>
