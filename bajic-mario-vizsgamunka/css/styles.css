@@ -86,7 +86,7 @@ ul.list-menu-inline li a.active {
 }
 
 /*Nav reszponzivitás*/
-@media (max-width: 661px) {
+@media (max-width: 662px) {
     .hamburger-nav {
         display: flex;
         flex-direction: column;
