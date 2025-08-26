@@ -5,7 +5,6 @@ function toggleMenu(button) {
   button.classList.toggle("active");
 }
 
-
 //Scroll to top button
 document.addEventListener("DOMContentLoaded", () => {
   const scrollBtn = document.getElementById("scrollToTopBtn");
@@ -29,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-//visszajelzés
+//form visszajelzés
 document.addEventListener("DOMContentLoaded", function () {
     const forms = document.querySelectorAll("form");
 
@@ -37,7 +36,6 @@ document.addEventListener("DOMContentLoaded", function () {
         form.addEventListener("submit", function (e) {
             e.preventDefault();
 
-            // formon belül keressük a success-message-et
             const successMessage = form.querySelector(".success-message");
             if (successMessage) {
                 successMessage.style.display = "block";
