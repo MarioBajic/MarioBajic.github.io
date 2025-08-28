@@ -18,10 +18,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Pentasi Wake | Wakeboard és vízisí pálya Kecskeméten</title>
     <meta name="description"
-        content="Wakeboard és vízisí pálya Kecskemét szívében. Jegyárak, szezonbérletek, táborok és programok – próbáld ki Te is a Pentasi Wake élményt!">
+        content="Wakeboard és vízisí pálya Kecskemét szívében. Jegyárak, szezonbérletek, táborok és programok próbáld ki Te is a Pentasi Wake élményt!">
     <meta property="og:title" content="Pentasi Wake | Wakeboard és vízisí pálya Kecskeméten">
     <meta property="og:description"
-        content="Wakeboard és vízisí pálya Kecskeméten. Jegyárak, bérletek, táborok és élmények – Pentasi Wake.">
+        content="Wakeboard és vízisí pálya Kecskeméten. Jegyárak, bérletek, táborok és élmények Pentasi Wake.">
     <meta property="og:image" content="https://pentasiwake.hu/img/fooldal/hero.jpg">
     <meta property="og:url" content="https://pentasiwake.hu/">
     <meta name="robots" content="noindex" />
@@ -48,115 +48,110 @@
         </ul>
     </nav>
 
-    <div class="home-grid-container">
-        <header>
-            <section class="home-hero-section">
-                <img src="img/fooldal/IMG_6857-2.jpg" alt="Wakeboard kicker jump">
-                <div class="home-hero-box">
-                    <p>Június 20.-tól minden nap nyitva vagyunk.</p>
-                    <a href="html/Jegyek.html" class="home-ticket-button">Jegyvásárláshoz kattints ide!</a>
+    <header>
+        <section class="home-hero-section">
+            <img src="img/fooldal/IMG_6857-2.jpg" alt="Wakeboard kicker jump">
+            <div class="home-hero-box">
+                <p>Június 20.-tól minden nap nyitva vagyunk.</p>
+                <a href="html/Jegyek.html" class="home-ticket-button">Jegyvásárláshoz kattints ide!</a>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="introduction-info-section">
+            <h1>Vizisí és wakeboard pálya Kecskemét szívében!</h1>
+            <p>A kecskeméti vizisípálya 5 oszlopos, <strong>788 m hosszú</strong>, egyszerre 9 wakeboardos
+                vontatására képes.</p>
+            <p>Sebessége 0-58 km/h között tizedes pontossággal változtatható, általában 30 km/h.</p>
+            <p>Tanulóórákban <strong>(minden nap, reggel 10-12 óra között)</strong> szakképzett oktatók
+                nyújtanak segítséget a
+                biztos alapok elsajátításában, az elszántabb érdeklődők akár a leglátványosabb trükköket is
+                megtanulhatják. Minden kezdőnek <strong>ingyen</strong> biztosítjuk a teljes felszerelést!</p>
+        </section>
+
+        <section class="registration-section">
+            <strong>
+                <h2>Szezonos regisztráció</h2>
+            </strong>
+            <form id="regForm" action="#" method="post">
+                <div class="form-row">
+                    <input type="text" name="nev" placeholder="Név*" autocomplete="name" required>
+                    <input type="email" name="email" autocomplete="email" placeholder="E-mail-cím *" required>
                 </div>
-            </section>
-        </header>
-
-        <main>
-            <section class="introduction-info-section">
-                <h1>Vizisí és wakeboard pálya Kecskemét szívében!</h1>
-                <p>A kecskeméti vizisípálya 5 oszlopos, <strong>788 m hosszú</strong>, egyszerre 9 wakeboardos
-                    vontatására képes.</p>
-                <p>Sebessége 0-58 km/h között tizedes pontossággal változtatható, általában 30 km/h.</p>
-                <p>Tanulóórákban <strong>(minden nap, reggel 10-12 óra között)</strong> szakképzett oktatók
-                    nyújtanak segítséget a
-                    biztos alapok elsajátításában, az elszántabb érdeklődők akár a leglátványosabb trükköket is
-                    megtanulhatják. Minden kezdőnek <strong>ingyen</strong> biztosítjuk a teljes felszerelést!</p>
-            </section>
-
-            <section class="registration-section">
-
-                <strong>
-                    <h2>Szezonos regisztráció</h2>
-                </strong>
-
-                <form id="regForm" action="#" method="post">
-                    <div class="form-row">
-                        <input type="text" name="nev" placeholder="Név*" autocomplete="name" required>
-                        <input type="email" name="email" autocomplete="email" placeholder="E-mail-cím *" required>
-                    </div>
-                    <input type="tel" name="telefon" autocomplete="tel" placeholder="Telefonszám">
-                    <textarea name="megjegyzes" placeholder="Hozzászólás"></textarea>
-                    <button type="submit">Küldés</button>
-                    <div id="successMessage" class="success-message">Köszönjük! A regisztrációd sikeresen elküldve.
-                    </div>
-                </form>
-            </section>
-
-            <section class="home-ticket-section">
-                <img src="img/fooldal/IMG_7060-3.jpg" alt="">
-                <div class="ticket-box">
-                    <!-- <h2>JEGYEK</h2> -->
-                    <p>Kattints ide, hogy megtekintsd a jegyeket!</p>
-                    <a href="html/Jegyek.html" class="sport-ticket-button">Sportolói jegyek</a>
+                <input type="tel" name="telefon" autocomplete="tel" placeholder="Telefonszám">
+                <textarea name="megjegyzes" placeholder="Hozzászólás"></textarea>
+                <button type="submit">Küldés</button>
+                <div id="successMessage" class="success-message">Köszönjük! A regisztrációd sikeresen elküldve.
                 </div>
-            </section>
+            </form>
+        </section>
 
-            <section class="info-section">
-                <div class="info-box">
-                    <h3>Árak</h3>
-                    <p>Órás, kétórás, napi, heti, havijegyek és szezonbérletek választhatóak</p>
-                    <a href="html/Jegyek.html">Részletek megtekintéséhez kattints ide!</a>
-                    <p></p>
-                    <a href="html/Jegyek.html">Jegyek<span>→</span></a>
-                </div>
-                <div class="info-box">
-                    <h3>Nyitvatartás</h3>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td>Május 1-31</td>
-                                <td>13:00-19:00</td>
-                            </tr>
-                            <tr>
-                                <td>Június 1-20</td>
-                                <td>13:00-20:00</td>
-                            </tr>
-                            <tr>
-                                <td>Június 20-Aug. 31</td>
-                                <td>9:00-20:00</td>
-                            </tr>
-                            <tr>
-                                <td>Szeptember 1-30</td>
-                                <td>13:00-19:00</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p>Esetleges módositásokat a Facebook oldalunkon mindig megtaláljátok.</p>
-                </div>
-                <div class="info-box">
-                    <h3>Kapcsolat</h3>
-                    <a href="https://maps.app.goo.gl/PhRrhB1FLbxZ2AH29" target="_blank">6000, Kecskemét, Csabay
-                        Géza körút 7</a>
-                    <a href="https://www.facebook.com/pentasicablepark" target="_blank">Facebook
-                        oldalunk</a>
-                    <a href="tel:+36309031933">+36 30 903 1933</a>
-                    <a href="mailto:ceo@pentasi.eu">ceo@pentasi.eu</a>
-                    <a href="html/Kapcsolat.html">Online kapcsolatfelvétel <span>→</span></a>
-                </div>
-            </section>
+        <section class="home-ticket-section">
+            <img src="img/fooldal/IMG_7060-3.jpg" alt="">
+            <div class="ticket-box">
+                <!-- <h2>JEGYEK</h2> -->
+                <p>Kattints ide, hogy megtekintsd a jegyeket!</p>
+                <a href="html/Jegyek.html" class="sport-ticket-button">Sportolói jegyek</a>
+            </div>
+        </section>
 
-            <section class="newsletter-section">
-                <h2>Iratkozz fel!</h2>
-                <p>Ne maradj le az exkluzív ajánlatokról, fantasztikus programjainkról! Iratkozz fel a hírlevelünkre!
-                </p>
-                <form id="newsletterForm" class="newsletter-form">
-                    <input type="email" name="email" autocomplete="email" placeholder="E-mail-cím" required>
-                    <button type="submit">Küldés</button>
-                    <div id="newsletterSuccess" class="success-message">Köszönjük! Sikeresen feliratkoztál a hírlevélre.
-                    </div>
+        <section class="info-section">
+            <div class="info-box">
+                <h3>Árak</h3>
+                <p>Órás, kétórás, napi, heti, havijegyek és szezonbérletek választhatóak</p>
+                <a href="html/Jegyek.html">Részletek megtekintéséhez kattints ide!</a>
+                <p></p>
+                <a href="html/Jegyek.html">Jegyek<span>→</span></a>
+            </div>
+            <div class="info-box">
+                <h3>Nyitvatartás</h3>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Május 1-31</td>
+                            <td>13:00-19:00</td>
+                        </tr>
+                        <tr>
+                            <td>Június 1-20</td>
+                            <td>13:00-20:00</td>
+                        </tr>
+                        <tr>
+                            <td>Június 20-Aug. 31</td>
+                            <td>9:00-20:00</td>
+                        </tr>
+                        <tr>
+                            <td>Szeptember 1-30</td>
+                            <td>13:00-19:00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Esetleges módositásokat a Facebook oldalunkon mindig megtaláljátok.</p>
+            </div>
+            <div class="info-box">
+                <h3>Kapcsolat</h3>
+                <a href="https://maps.app.goo.gl/PhRrhB1FLbxZ2AH29" target="_blank">6000, Kecskemét, Csabay
+                    Géza körút 7</a>
+                <a href="https://www.facebook.com/pentasicablepark" target="_blank">Facebook
+                    oldalunk</a>
+                <a href="tel:+36309031933">+36 30 903 1933</a>
+                <a href="mailto:ceo@pentasi.eu">ceo@pentasi.eu</a>
+                <a href="html/Kapcsolat.html">Online kapcsolatfelvétel <span>→</span></a>
+            </div>
+        </section>
 
-                </form>
-            </section>
-        </main>
-    </div>
+        <section class="newsletter-section">
+            <h2>Iratkozz fel!</h2>
+            <p>Ne maradj le az exkluzív ajánlatokról, fantasztikus programjainkról! Iratkozz fel a hírlevelünkre!
+            </p>
+            <form id="newsletterForm" class="newsletter-form">
+                <input type="email" name="email" autocomplete="email" placeholder="E-mail-cím" required>
+                <button type="submit">Küldés</button>
+                <div id="newsletterSuccess" class="success-message">Köszönjük! Sikeresen feliratkoztál a hírlevélre.
+                </div>
+            </form>
+        </section>
+    </main>
 
     <footer class="footer-top">
         <div class="footer-container">
